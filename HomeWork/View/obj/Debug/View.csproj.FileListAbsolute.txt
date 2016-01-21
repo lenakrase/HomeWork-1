@@ -6,3 +6,14 @@ C:\Users\Елена\Desktop\Учёба\Курсы\HomeWork\View\bin\Debug\Model.
 C:\Users\Елена\Desktop\Учёба\Курсы\HomeWork\View\obj\Debug\View.csprojResolveAssemblyReference.cache
 C:\Users\Елена\Desktop\Учёба\Курсы\HomeWork\View\obj\Debug\View.exe
 C:\Users\Елена\Desktop\Учёба\Курсы\HomeWork\View\obj\Debug\View.pdb
+C:\Users\Елена\Desktop\HomeWork-1-master\HomeWork\View\bin\Debug\View.exe.config
+C:\Users\Елена\Desktop\HomeWork-1-master\HomeWork\View\obj\Debug\View.exe
+C:\Users\Елена\Desktop\HomeWork-1-master\HomeWork\View\obj\Debug\View.pdb
+C:\Users\Елена\Desktop\HomeWork-1-master\HomeWork\View\bin\Debug\View.exe
+C:\Users\Елена\Desktop\HomeWork-1-master\HomeWork\View\bin\Debug\View.pdb
+C:\Users\Елена\Desktop\HomeWork-1-master\HomeWork\View\bin\Debug\Model.dll
+C:\Users\Елена\Desktop\HomeWork-1-master\HomeWork\View\bin\Debug\Model.pdb
+C:\Users\Елена\Desktop\HomeWork-1-master\HomeWork\View\obj\Debug\View.csprojResolveAssemblyReference.cache
+C:\Users\Елена\Desktop\Учёба\Курсы\HomeWork-1-master\HomeWork\View\bin\Debug\View.exe.config
+C:\Users\Елена\Desktop\Учёба\Курсы\HomeWork-1-master\HomeWork\View\obj\Debug\View.exe
+C:\Users\Елена\Desktop\Учёба\Курсы\HomeWork-1-master\HomeWork\View\obj\Debug\View.pdb

@@ -7,9 +7,8 @@ using System.Threading.Tasks;
 namespace Model
 {
     public class CatColor
-
     {
-        public static string SickColor { get; set; } = "Green";
-        public static string HeathyColor { get; set; } = "White";
+        public string SickColor { get; set; } = "Green";
+        public string HeathyColor { get; set; } = "White";
     }
 }

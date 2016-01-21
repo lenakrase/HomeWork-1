@@ -8,11 +8,28 @@ namespace Model
 {
     public class Cat
     {
-        private string _name;
-        public Cat(int Age1)
+
+        public Cat(int age)
         {
-            Age = Age1;
+            Age = age;
+            Color = new CatColor();
         }
+
+        private string _name;
+       
+        /// <summary>
+        /// read only property
+        /// </summary>
+        public int Age { get; }
+
+        /// <summary>
+        /// private Field
+        /// </summary>
+        private int _health = 5;
+
+        /// <summary>
+        /// write first Property
+        /// </summary>
         public string Name
         {
             get { return _name; }
@@ -22,34 +39,39 @@ namespace Model
                     _name = value;
             }
         }
-        public int Age { get; private set; }
-        public int Health { get; private set; } = 5;
+
         public void Feed()
         {
-            Health++;
-        }
-        public void Punish()
-        {
-            Health--;
+            _health++;
         }
 
+        public void Punish()
+        {
+            _health--;
+        }
+
+        /// <summary>
+        /// read/write property
+        /// </summary>
+        public CatColor Color { get; set; }
+
+        /// <summary>
+        /// Вычисляемое поле
+        /// </summary>
         public string CurrentColor
         {
-            set { }
             get
             {
-                if (Health < 5)
+                if (_health < 5)
                 {
-                    return CatColor.SickColor;
+                    return Color.SickColor;
                 }
                 else
                 {
-                    return CatColor.HeathyColor;
+                    return Color.HeathyColor;
                 }
             }
         }
-
     }
-
 }
 

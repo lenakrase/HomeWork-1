@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using Model;
+
 
 namespace View
 {
@@ -13,8 +15,7 @@ namespace View
         {
             int menu = 0;
             Console.WriteLine("Задать возраст кошки");
-            var cat = new Cat(Age1: Int32.Parse(Console.ReadLine()));
-            var catColor = new CatColor();
+            var cat = new Cat(age: int.Parse(Console.ReadLine()));
 
             do
             {
@@ -38,9 +39,9 @@ namespace View
                         break;
                     case 2:
                         Console.WriteLine("Введите здоровый цвет:");
-                        CatColor.HeathyColor = Console.ReadLine();
+                        cat.Color.HeathyColor = Console.ReadLine();
                         Console.WriteLine("Введите больной цвет:");
-                        CatColor.SickColor = Console.ReadLine();
+                        cat.Color.SickColor = Console.ReadLine();
                         break;
                     case 3:
                         cat.Punish();
